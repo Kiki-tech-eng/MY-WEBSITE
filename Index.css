@@ -5,12 +5,27 @@ body {
   font-size: 16px;
   line-height: 1.6em;
   margin: 0;
+  width: 100%;
 }
 
 .container {
   width: 80%;
   margin: auto;
   overflow: hidden;
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.hero-container {
+  background-image: url("./sparkling-underwater-jellyfish-abstract-oil.jpg");
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+  font-style: italic;
 }
 
 #main-header {
@@ -19,7 +34,7 @@ body {
 }
 
 #navbar {
-  background-color: beige;
+  background-color: rgb(95, 50, 93);
   color: white;
 }
 
@@ -37,14 +52,6 @@ body {
   text-decoration: none;
   font-size: 18px;
   padding-right: 15px;
-}
-
-#showcase {
-  background-image: url(./sparkling-underwater-jellyfish-abstract-oil.jpg);
-  background-position: center right; 
-  height: 300px;
-  margin-bottom: 30px;
-  text-align: center;
 }
 
 #showcase h1 {
@@ -77,6 +84,9 @@ body {
   margin-top: 40px;
 }
 
+#showcase {
+  max-width: 1440px;
+}
 @media only screen and (max-width: 600px) {
   #main {
     width: 100%;
@@ -85,6 +95,6 @@ body {
 }
 
 #main {
-    width: 100%;
-    float: none;
-  }
+  width: 100%;
+  float: none;
+}
