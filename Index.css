@@ -41,14 +41,14 @@ body {
 
 #showcase {
   background-image: url(./sparkling-underwater-jellyfish-abstract-oil.jpg);
-  background-position: center right;
+  background-position: center right; 
   height: 300px;
   margin-bottom: 30px;
   text-align: center;
 }
 
 #showcase h1 {
-  color: white;
+  color: rgb(175, 26, 26);
   font-size: 50px;
   line-height: 1.6em;
   padding-top: 30px;
